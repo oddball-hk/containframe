@@ -8,6 +8,11 @@ An experimental process and application packaging system with its own proprietar
         LZMA
         TOML
         XXHASH
+    
+    Builder
+        https://github.com/naqvis/xz.cr
+        https://github.com/crystal-community/toml.cr
+        https://github.com/anykeyh/xxHash.cr
 
     Scratch reference equivalents:
         Crystal
@@ -31,6 +36,9 @@ An experimental process and application packaging system with its own proprietar
     tracks jobs
     tracks machine 
     updates assignments
+
+    Dependencies:
+        https://github.com/kostya/simple_rpc
 
 ## Monitor
 
