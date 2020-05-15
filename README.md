@@ -46,3 +46,13 @@ An experimental process and application packaging system with its own proprietar
     visualize job stats
     visualize machine stats
     htop for your containframe
+
+## CF
+
+    final stage self-contained binary that facilitates each of the above defined arenas of operation
+
+    ```cf build```
+    ```cf conductor start | stop```
+    ```cf monitor start | stop```
+    ```cf machine start | stop```
+    
