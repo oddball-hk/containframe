@@ -1,0 +1,9 @@
+name: common
+version: 0.1.0
+
+authors:
+  - William Kirk <whk@whk.io>
+
+crystal: 0.34.0
+
+license: MIT
