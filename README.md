@@ -9,6 +9,17 @@ An experimental process and application packaging system with its own proprietar
         TOML
         XXHASH
 
+    From Scratch reference equivalents for
+        Crystal bins
+        Rust bin
+        Busybox
+        Ruby
+        Python
+        Java
+        Go
+        ADA
+        COBOL
+
 ## Machine
 
     register with conductor
