@@ -9,9 +9,9 @@ An experimental process and application packaging system with its own proprietar
         TOML
         XXHASH
 
-    From Scratch reference equivalents for
-        Crystal bins
-        Rust bin
+    Scratch reference equivalents:
+        Crystal
+        Rust
         Busybox
         Ruby
         Python
