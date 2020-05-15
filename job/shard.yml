@@ -1,0 +1,13 @@
+name: job
+version: 0.1.0
+
+authors:
+  - William Kirk <whk@whk.io>
+
+targets:
+  job:
+    main: src/job.cr
+
+crystal: 0.34.0
+
+license: MIT
