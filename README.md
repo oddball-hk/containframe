@@ -8,6 +8,7 @@ An experimental process and application packaging system with its own proprietar
         LZMA
         TOML
         XXHASH
+        https://github.com/schovi/baked_file_system
     
     Builder
         https://github.com/naqvis/xz.cr
