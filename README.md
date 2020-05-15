@@ -4,55 +4,57 @@ An experimental process and application packaging system with its own proprietar
 
 ## Job
 
-    Container implementation
-        LZMA
-        TOML
-        XXHASH
-        https://github.com/schovi/baked_file_system
-    
-    Builder
-        https://github.com/naqvis/xz.cr
-        https://github.com/crystal-community/toml.cr
-        https://github.com/anykeyh/xxHash.cr
+Container implementation
+    LZMA
+    TOML
+    XXHASH
+    https://github.com/schovi/baked_file_system
 
-    Scratch reference equivalents:
-        Crystal
-        Rust
-        Busybox
-        Ruby
-        Python
-        Java
-        Go
-        ADA
-        COBOL
+Builder
+    https://github.com/naqvis/xz.cr
+    https://github.com/crystal-community/toml.cr
+    https://github.com/anykeyh/xxHash.cr
+
+Scratch reference equivalents:
+    Crystal
+    Rust
+    Busybox
+    Ruby
+    Python
+    Java
+    Go
+    ADA
+    COBOL
 
 ## Machine
 
-    register with conductor
-    has isolation layer by default ( think gvisor ) ( possible hardware obfuscation layer )
-    runs jobs assigned by conductor
+register with conductor
+has isolation layer by default ( think gvisor ) ( possible hardware obfuscation layer )
+runs jobs assigned by conductor
 
 ## Conductor
 
-    tracks jobs
-    tracks machine 
-    updates assignments
+tracks jobs
+tracks machine
+updates assignments
 
-    Dependencies:
-        https://github.com/kostya/simple_rpc
+Dependencies:
+[simple_rpc](https://github.com/kostya/simple_rpc)
 
 ## Monitor
 
-    visualize job stats
-    visualize machine stats
-    htop for your containframe
+visualize job stats
+visualize machine stats
+htop for your containframe
 
 ## CF
 
-    final stage self-contained binary that facilitates each of the above defined arenas of operation
+final stage self-contained binary that facilitates each of the above defined arenas of operation
 
-    ```cf build```
-    ```cf conductor start | stop```
-    ```cf monitor start | stop```
-    ```cf machine start | stop```
-    
+```cf build```
+
+```cf conductor start | stop```
+
+```cf monitor start | stop```
+
+```cf machine start | stop```
