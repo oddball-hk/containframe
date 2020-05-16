@@ -30,7 +30,7 @@ jobs:
 
   job2: 
     name: conductor
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     defaults:
       run:
         shell: bash
