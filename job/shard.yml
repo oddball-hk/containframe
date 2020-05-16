@@ -11,3 +11,14 @@ targets:
 crystal: 0.34.0
 
 license: MIT
+
+dependencies:
+  xz:
+    github: naqvis/xz.cr
+    branch: master
+  toml:
+    github: crystal-community/toml.cr
+    branch: master    
+  xx_hash:
+    github: anykeyh/xxHash.cr
+    branch: master

@@ -1,0 +1,14 @@
+version: 1.0
+shards:
+  toml:
+    github: crystal-community/toml.cr
+    commit: d02de85eed68a70dc97ab6d6e52831a4d0e890fe
+
+  xx_hash:
+    github: anykeyh/xxHash.cr
+    commit: 48cba51c7bd5bc3de8c00033f40cdf2347ac9139
+
+  xz:
+    github: naqvis/xz.cr
+    commit: a36e71b92940c05ea7d09f73e08b2e45ac9e9f73
+
