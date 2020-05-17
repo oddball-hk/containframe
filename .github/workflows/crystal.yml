@@ -22,7 +22,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: install libraries
-      run: apt update -y && apt install -y liblzma5 liblzma-dev
+      run: apt update -y && apt install -y liblzma5=5.2.4-1 liblzma-dev=5.2.4-1
     - name: Install dependencies
       run: shards install
     - name: Run tests
