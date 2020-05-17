@@ -28,93 +28,93 @@ jobs:
     - name: Run tests
       run: crystal spec
 
-  job2: 
-    name: conductor
-    runs-on: ubuntu-20.04
-    defaults:
-      run:
-        shell: bash
-        working-directory: ./conductor
+  # job2: 
+  #   name: conductor
+  #   runs-on: ubuntu-20.04
+  #   defaults:
+  #     run:
+  #       shell: bash
+  #       working-directory: ./conductor
       
-    container:
-      image: crystallang/crystal
+  #   container:
+  #     image: crystallang/crystal
       
-    steps:
-    - uses: actions/checkout@v2
-    - name: Install dependencies
-      run: shards install
-    - name: Run tests
-      run: crystal spec
+  #   steps:
+  #   - uses: actions/checkout@v2
+  #   - name: Install dependencies
+  #     run: shards install
+  #   - name: Run tests
+  #     run: crystal spec
 
-  job3: 
-    name: machine
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash
-        working-directory: ./machine
+  # job3: 
+  #   name: machine
+  #   runs-on: ubuntu-latest
+  #   defaults:
+  #     run:
+  #       shell: bash
+  #       working-directory: ./machine
         
-    container:
-      image: crystallang/crystal
+  #   container:
+  #     image: crystallang/crystal
           
-    steps:
-    - uses: actions/checkout@v2
-    - name: Install dependencies
-      run: shards install
-    - name: Run tests
-      run: crystal spec
+  #   steps:
+  #   - uses: actions/checkout@v2
+  #   - name: Install dependencies
+  #     run: shards install
+  #   - name: Run tests
+  #     run: crystal spec
 
-  job4: 
-    name: monitor
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash
-        working-directory: ./monitor
+  # job4: 
+  #   name: monitor
+  #   runs-on: ubuntu-latest
+  #   defaults:
+  #     run:
+  #       shell: bash
+  #       working-directory: ./monitor
         
-    container:
-      image: crystallang/crystal
+  #   container:
+  #     image: crystallang/crystal
           
-    steps:
-    - uses: actions/checkout@v2
-    - name: Install dependencies
-      run: shards install
-    - name: Run tests
-      run: crystal spec
+  #   steps:
+  #   - uses: actions/checkout@v2
+  #   - name: Install dependencies
+  #     run: shards install
+  #   - name: Run tests
+  #     run: crystal spec
 
-  job5: 
-    name: common
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash
-        working-directory: ./common
+  # job5: 
+  #   name: common
+  #   runs-on: ubuntu-latest
+  #   defaults:
+  #     run:
+  #       shell: bash
+  #       working-directory: ./common
         
-    container:
-      image: crystallang/crystal
+  #   container:
+  #     image: crystallang/crystal
           
-    steps:
-    - uses: actions/checkout@v2
-    - name: Install dependencies
-      run: shards install
-    - name: Run tests
-      run: crystal spec            
+  #   steps:
+  #   - uses: actions/checkout@v2
+  #   - name: Install dependencies
+  #     run: shards install
+  #   - name: Run tests
+  #     run: crystal spec            
 
-  job6: 
-    name: cf
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash
-        working-directory: ./cf
+  # job6: 
+  #   name: cf
+  #   runs-on: ubuntu-latest
+  #   defaults:
+  #     run:
+  #       shell: bash
+  #       working-directory: ./cf
         
-    container:
-      image: crystallang/crystal
+  #   container:
+  #     image: crystallang/crystal
           
-    steps:
-    - uses: actions/checkout@v2
-    - name: Install dependencies
-      run: shards install
-    - name: Run tests
-      run: crystal spec
+  #   steps:
+  #   - uses: actions/checkout@v2
+  #   - name: Install dependencies
+  #     run: shards install
+  #   - name: Run tests
+  #     run: crystal spec
 
