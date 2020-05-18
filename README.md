@@ -47,14 +47,14 @@ visualize job stats
 visualize machine stats
 htop for your containframe
 
-## CF
+## CFRAME 
 
 final stage self-contained binary that facilitates each of the above defined arenas of operation
 
-```cf build```
+```cframe build```
 
-```cf conductor start | stop```
+```cframe conductor start | stop```
 
-```cf monitor start | stop```
+```cframe monitor start | stop```
 
-```cf machine start | stop```
+```cframe machine start | stop```
